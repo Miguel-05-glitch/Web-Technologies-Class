@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('burger.jpeg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.barradenave ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.barradenave ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 3.5s;
+}
+
+.barradenave ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset
+}
+
+.barradenave .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+
+.conteudo{
+    position: absolute;
+    color: #fff;
+    top: 30%;
+    left: 20%;
+}
+
+
+.conteudo h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.conteudo button{
+    font-size: 50px;
+    background-color: orangered;
+}
